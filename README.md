@@ -17,7 +17,7 @@ This project visualizes the population density of the United States using React,
 
 ## Features
 - Display map with population density using GeoJSON data
-![with searching feature](\assets\screenshot1.png)
+![with searching feature](..\src\assets\screenshot1.png)
 - Interactive tooltips showing population density
 - Responsive design for desktop and mobile
 - Filtering options for specific states 
