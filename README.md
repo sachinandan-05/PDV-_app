@@ -22,7 +22,7 @@ This project visualizes the population density of the United States using React,
 - Responsive design for desktop and mobile
 - Filtering options for specific states 
 - shoing graph for specific state desity on hovering
-![with graph representation ](\src\assets\screenshot2.png)
+![with graph representation ]("\src\assets\screenshot2.png")
 
 ## Getting Started
 1. start the devlopment server

@@ -271,7 +271,7 @@ const MapComponent: React.FC = () => {
         />
         <button
           onClick={handleSearch}
-          className="p-2  hover:bg-slate-500 rounded-r-full h-8  absolute right-2  mr-2 bg-slate-400  text-white"
+          className="p-2  hover:bg-slate-500 rounded-r-full h-8  absolute lg:right-2 right-[2px] lg:mr-2  bg-slate-400  text-white"
         >
          <IoIosSearch className='text-blue-700' size={18} />
         </button>

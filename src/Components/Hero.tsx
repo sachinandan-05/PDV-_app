@@ -12,8 +12,8 @@ const Hero: React.FC = () => {
     return (
         <div className='h-screen bg-white'>
             <div className='w-full flex flex-col justify-center items-center  z-10' >
-                <div className='absolute right-40 top-40   h-[250px] mix-blend-multiply  w-[600px] z-0 bg-red- object-contain'>
-                <img src="../../public/hero2.png" alt=""  className='  '/></div>
+                <div className='absolute right-40 top-40   h-[250px] mix-blend-multiply  w-[600px] z-0  object-contain'>
+                <img src="../assets/hero2.png" alt=""  className='  '/></div>
                 <br />
                 <br />
                 <div className='w-full flex justify-center items-center text-center text-6xl font-semibold font-display bounce-once'>
