@@ -21,7 +21,7 @@ This project visualizes the population density of the United States using React,
 - Interactive tooltips showing population density
 - Responsive design for desktop and mobile
 - Filtering options for specific states 
-- shoing graph for specific state desity on hovering
+- showing graph of spacefic city's density on hovering
 ![with graph representation ](/src/assets/screenshot2.png)
 
 ## Getting Started
