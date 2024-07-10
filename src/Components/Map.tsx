@@ -279,7 +279,7 @@ const MapComponent: React.FC = () => {
       <div id="vectorLayerMap" className="w-full relative h-[50%] lg:h-screen z-30 border-2 border-white"></div>
       <div className=''>
      
-      <div className="relative  lg:absolute top-10 pl-3 right-10 lg:right-10  lg:z-[999999] lg:top-20 p-4 lg:bg-[#16164577] bg-blue-950 text-white rounded shadow-lg border-2 md:w-18 md:pl-3 border-white">
+      <div className=" relative lg:absolute lg:block top-10 pl-3 right-10 lg:right-10  lg:z-[999999] lg:top-20 p-4 lg:bg-[#16164577] bg-blue-950 text-white rounded shadow-lg border-2 md:w-18 md:pl-3 border-white hidden">
         <h4 className="font-bold mb-2 text-center">Population Density Legend</h4>
         <div className="flex flex-col lg:items-start items-start m-10 lg:m-1   ">
           <div className="flex lg:items-center   ">
@@ -308,6 +308,36 @@ const MapComponent: React.FC = () => {
           </div>
         </div>
       </div>
+      {/* for mobile */}
+      <div className="m-1 lg:hidden top-10 right-10    bg-blue-950 text-white rounded shadow-lg border-2 md:w-18 border-white">
+  <h4 className="font-bold  text-center">Population Density Legend</h4>
+  <div className="flex flex-wrap lg:flex-col lg:items-start items-center m-10 lg:m-1 space-x-4 lg:space-x-0 lg:space-y-4">
+    <div className="flex items-center">
+      <span className="inline-block w-4 h-4 mr-2" style={{ backgroundColor: '#800026' }}></span> &gt; 1000
+    </div>
+    <div className="flex items-center">
+      <span className="inline-block w-4 h-4 mr-2" style={{ backgroundColor: '#BD0026' }}></span> 500 - 1000
+    </div>
+    <div className="flex items-center">
+      <span className="inline-block w-4 h-4 mr-2" style={{ backgroundColor: '#E31A1C' }}></span> 200 - 500
+    </div>
+    <div className="flex items-center">
+      <span className="inline-block w-4 h-4 mr-2" style={{ backgroundColor: '#FC4E2A' }}></span> 100 - 200
+    </div>
+    <div className="flex items-center">
+      <span className="inline-block w-4 h-4 mr-2" style={{ backgroundColor: '#FD8D3C' }}></span> 50 - 100
+    </div>
+    <div className="flex items-center">
+      <span className="inline-block w-4 h-4 mr-2" style={{ backgroundColor: '#FEB24C' }}></span> 20 - 50
+    </div>
+    <div className="flex items-center">
+      <span className="inline-block w-4 h-4 mr-2" style={{ backgroundColor: '#FED976' }}></span> 10 - 20
+    </div>
+    <div className="flex items-center">
+      <span className="inline-block w-4 h-4 mr-2" style={{ backgroundColor: '#FFEDA0' }}></span> &lt; 10
+    </div>
+  </div>
+</div>
       </div>
       
       <div

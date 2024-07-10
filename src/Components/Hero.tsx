@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
     return (
         <div className='h-screen bg-white'>
             <div className='w-full flex flex-col justify-center items-center  z-10' >
-                <div className='absolute right-40 top-40   h-[250px] mix-blend-multiply  w-[600px] z-0  object-contain'>
+                <div className='absolute right-40 top-40   h-[250px] mix-blend-multiply  w-[600px] z-[] object-contain'>
                 <img src="../assets/hero2.png" alt=""  className='  '/></div>
                 <br />
                 <br />
